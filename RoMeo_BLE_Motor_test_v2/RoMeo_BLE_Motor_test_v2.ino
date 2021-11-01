@@ -10,9 +10,9 @@ int M2 = 7;    //M1 Direction Control
 //int E2 = 9;     //M2 Speed Control
 //int M1 = 7;    //M1 Direction Control
 //int M2 = 8;    //M1 Direction Control
-int turnSpeed = 200;
+int turnSpeed = 150;
 
-void stop(void)                    //Stop
+void stop(void)v//Stop
 {
   digitalWrite(E1, LOW);
   digitalWrite(E2, LOW);
