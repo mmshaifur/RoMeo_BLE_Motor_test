@@ -10,7 +10,7 @@ int M2 = 7;    //M1 Direction Control
 //int E2 = 9;     //M2 Speed Control
 //int M1 = 7;    //M1 Direction Control
 //int M2 = 8;    //M1 Direction Control
-int turnSpeed = 150;
+int turnSpeed = 140;
 
 void stop(void)//Stop
 {
