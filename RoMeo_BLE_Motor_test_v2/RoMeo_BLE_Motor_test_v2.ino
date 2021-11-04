@@ -1,4 +1,4 @@
-//Modified Date: Nov 1, 2021
+//Modified Date: Nov 4, 2021
 //Standard PWM DC control
 int E1 = 5;     //M1 Speed Control
 int E2 = 6;     //M2 Speed Control
@@ -12,7 +12,7 @@ int M2 = 7;    //M1 Direction Control
 //int M2 = 8;    //M1 Direction Control
 int turnSpeed = 150;
 
-void stop(void)v//Stop
+void stop(void)//Stop
 {
   digitalWrite(E1, LOW);
   digitalWrite(E2, LOW);
